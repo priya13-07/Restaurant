@@ -17,11 +17,7 @@ const DishSchema = new Schema({
     veg_nonveg:{
         type : Boolean,
     },
-    // pics:{
-    //     type : String,
-    //     required: true,
-        
-    // },
+   
     ingredients: {
         type: Array,
         required: true,

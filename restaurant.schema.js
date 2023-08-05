@@ -15,11 +15,6 @@ const RestaurantSchema = new Schema({
         required : true,
         trim: true
     },
-    // pics:{
-        //     type : String,
-        //     required: true,
-            
-        // },
 
     phone:{
         type : Number,
